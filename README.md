@@ -58,3 +58,9 @@ It leverages **LangChain**, **Ollama LLM**, **Chroma vector database**, **Pandas
    ```bash
    python main.py
 
+
+## 👥 Contributors
+- [Divyam Bansal](https://github.com/DivyamBansal)
+- [Hitesh Kholwal](https://github.com/HiteshKholwal)
+
+
