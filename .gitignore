@@ -1,0 +1,22 @@
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+ollama_env/
+env/
+venv/
+ENV/
+
+# Database files
+chroma_langchain_db/
+*.sqlite3
+*.db
+
+# VS Code temporary files
+.vscode/
+tempCodeRunnerFile.py
+
+# OS files
+.DS_Store
+Thumbs.db
