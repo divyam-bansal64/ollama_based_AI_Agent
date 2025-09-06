@@ -36,21 +36,25 @@ It leverages **LangChain**, **Ollama LLM**, **Chroma vector database**, **Pandas
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/your-username/pizza-review-chatbot.git
-   cd pizza-review-chatbot
-2. **Install dependencies**  
+   git clone https://github.com/divyam-bansal64/ollama_based_AI_Agent.git
+   cd ollama_based_AI_Agent
+2. **Set up a virtual environment (recommended):**
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+3. **Install dependencies**  
    ```bash
    pip install -r requirements.txt
-3. **Prepare the dataset**  
+4. **Prepare the dataset**  
    Ensure `realistic_restaurant_reviews.csv` is in the project folder with columns:  
    - Title  
    - Review  
    - Rating  
    - Date  
-4. **Build the vector database** (first time only)  
+5. **Build the vector database** (first time only)  
    ```bash
    python vector.py
-5. **Run the chatbot**  
+6. **Run the chatbot**  
    ```bash
    python main.py
 
